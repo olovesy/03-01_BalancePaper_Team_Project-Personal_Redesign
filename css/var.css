@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+/* 사이트에서 공통으로 사용하는 색상과 크기 */
+:root {
+    --main-font: "NanumSquareNeo", "Pretendard", sans-serif;
+    --main-color: #348728;
+    --dark-color: #16550d;
+    --light-color: #e4f0d0;
+    --background-color: #f7f9f5;
+    --text-color: #172217;
+    --gray-color: #647064;
+    --line-color: #dce6d8;
+    --white: #ffffff;
+    --black: #000000;
+    --radius: 20px;
+
+    /* 기존 CSS와 연결되는 이름 */
+    --mainKor-font: var(--main-font);
+    --mainBg-color: var(--main-color);
+    --subBg100: var(--light-color);
+}
